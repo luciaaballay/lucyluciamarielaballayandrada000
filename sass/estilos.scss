@@ -1,0 +1,115 @@
+@import "colores";
+@import "typography";
+
+body{
+
+    h2{
+        padding: 10px;
+        margin-bottom: 0;
+    }
+    a{
+        padding-left: 10px;
+    }
+    .ubi{
+        padding-left: 10px;
+        padding-right: 10px;
+    }    
+    .btn-primary{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    }
+    .card{
+        .ingresa{
+            background-image: url(../assets/img/vestidofondoooooo.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .registrate{
+            background-image: url(../assets/img/vestidofondooooo.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    .descuento{
+        background-image: url(../assets/img/descuentos.png);
+        height: 300px;
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    main{
+
+        .jumbotron{
+            background-image: url(../assets/img/rainbow33.png);
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            border-radius: 0;
+            margin-bottom: 0;
+        }
+        
+        .imgnosotros{
+            background-image: url(../assets/img/aaaa.png);
+            width: 100%;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .nosotros{
+            height: 500px;
+            width: 100%;
+
+            .row{
+                height: 500px;
+
+                .nleft{
+                    background-image: url(../assets/img/portada.png);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+    .newsletter{
+        width: 100%;
+        min-height: 300px;
+        padding: 50px;
+
+        input{
+            width: 100%;
+            text-align: center;
+            height: 40px;
+            margin-bottom: 25px;
+        }
+    }
+    .form-group{
+        margin-right: 20px;
+        margin-left: 10px;
+
+        .form-check-label{
+            padding-left: 15px;
+        }
+        .form-control{
+            margin-right: 50px;
+        }
+    }
+    .boton{
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    footer{
+        min-height: 90px;
+        width: 100%;
+        padding: 20px;
+    
+        .redes a{
+            min-height: 90px;
+            width: 100%;
+            padding-right: 15px;
+            padding-top: 20px;
+        }
+    }
